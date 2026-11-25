@@ -1,22 +1,37 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns="http://www.example.org/cav-df-ontology#"
-     xml:base="http://www.example.org/cav-df-ontology"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:cav="http://www.example.org/cav-df-ontology#"
+     xml:base="http://www.example.org/cav-df-ontology#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:cav="http://www.example.org/cav-df-ontology#">
+
     <owl:Ontology rdf:about="http://www.example.org/cav-df-ontology">
         <owl:versionIRI rdf:resource="http://www.example.org/cav-df-ontology/1.1.0"/>
-        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">24/11/2026</dc:created>
-        <dc:description>A comprehensive OWL/RDF-XML ontology for digital forensics in Connected Autonomous Vehicles (CAVs). Aligned with ISO/IEC 27037, ISO/SAE 21434, ISO 34503, and NIST SP 800-86. It structures concepts across Actor, Data Sources, Evidence Correlation, Incident, and Legal/Ethical sub-domains with full V2X, cybersecurity, and internal architecture coverage.</dc:description>
+        <owl:versionInfo>1.1.0</owl:versionInfo>
         <dc:title>Connected Autonomous Vehicles Digital Forensics Ontology (CAV-DFO)</dc:title>
-        <dc:title>Oluwaseun Abimibola (Bimbo) Bakare</dc:title>
-        <owl:versionInfo>v1.1.0</owl:versionInfo>
+        <dcterms:title>Connected Autonomous Vehicles Digital Forensics Ontology (CAV-DFO)</dcterms:title>
+        <dc:creator>[Oluwaseun Abimibola BAKARE] (ORCID: 0009-0007-9477-0426, Curtin University of Technology, Bentley, Western Australia)</dc:creator>
+        <dcterms:creator>[Oluwaseun Abimibola BAKARE]</dcterms:creator>
+        <dcterms:creator rdf:resource="https://orcid.org/0009-0007-9477-0426"/>
+        <dcterms:publisher>Curtin University of Technology, Bentley, Western Australia</dcterms:publisher>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-11-25</dcterms:created>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-11-25</dcterms:modified>
+        <dcterms:rights>Copyright (c) 2026 Oluwaseun Abimibola Bakare (ORCID: 0009-0007-9477-0426), Curtin University of Technology, Bentley, Western Australia. Licensed under CC-BY-4.0; see LICENSE in the repository (https://github.com/MorinGACARE/ODFIF-CAV_Ontology/blob/main/LICENSE) and https://creativecommons.org/licenses/by/4.0/.</dcterms:rights>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <vann:preferredNamespacePrefix>cav</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:resource="http://www.example.org/cav-df-ontology#"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/MorinGACARE/ODFIF-CAV_Ontology"/>
+        <dc:description>An OWL/RDF-XML ontology for digital forensics in Connected Autonomous Vehicles (CAVs). Aligned with ISO/IEC 27037, ISO/SAE 21434, ISO 34503, and NIST SP 800-86. It structures concepts across Actor, Data Sources, Evidence Correlation, Incident, and Legal/Ethical sub-domains with full V2X, cybersecurity, and internal architecture coverage.</dc:description>
+        <dcterms:description>An OWL/RDF-XML ontology for digital forensics in Connected Autonomous Vehicles (CAVs). Aligned with ISO/IEC 27037, ISO/SAE 21434, ISO 34503, and NIST SP 800-86. It structures concepts across Actor, Data Sources, Evidence Correlation, Incident, and Legal/Ethical sub-domains with full V2X, cybersecurity, and internal architecture coverage.</dcterms:description>
     </owl:Ontology>
-    
+
 
 
     <!-- 
