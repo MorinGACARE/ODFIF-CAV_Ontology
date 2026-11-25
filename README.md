@@ -97,3 +97,16 @@ FAIR Assessment (FOOPS!): Hosted via GitHub to provide open HTTP/HTTPS access, v
 Citation
 
 If you use CAV-DFO in your digital forensics research or autonomous vehicle incident analysis, please cite this repository and reference CAV-DFO v1.1.0.
+
+
+# License section
+https://github.com/MorinGACARE/ODFIF-CAV_Ontology/blob/main/LICENSE
+
+Copyright (c) 2026 Oluwaseun Abimibola Bakare (ORCID: 0009-0007-9477-0426),
+Curtin University of Technology, Bentley, Western Australia.
+
+This work is licensed under the Creative Commons Attribution 4.0 International License.
+To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
+or view the full legal code at https://creativecommons.org/licenses/by/4.0/legalcode.txt.
+
+
