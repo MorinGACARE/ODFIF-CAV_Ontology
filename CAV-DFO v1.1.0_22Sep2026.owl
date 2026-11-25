@@ -73,7 +73,6 @@
 
     
 
-
     <!-- http://www.example.org/cav-df-ontology#analysedBy -->
 
     <owl:ObjectProperty rdf:about="http://www.example.org/cav-df-ontology#analysedBy">
